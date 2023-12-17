@@ -1,0 +1,50 @@
+#title{
+    background-color:peachpuff;
+    height: 400;
+    width:400;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    box-sizing: border-box;
+    text-align: center;
+    font-style:inherit;
+    font-size: 50px;
+}
+.podrozdzial{
+    color: brown;
+    text-decoration: solid;
+    text-align: center;
+    background-color: papayawhip;
+    height: 200;
+    width: 400;
+    font-style:inherit;
+    font-size: 40;
+
+}
+p{
+    font-size: 20px;
+    font-style:inherit;
+}
+link:hover{
+    color: brown;
+}
+link:active{
+    color: black;
+}
+
+.centrowanie{
+    text-align: center;
+}
+
+#idSekcja{
+
+}
+#idSection2{
+
+}
+#idInput
+
+#submit-form{
+
+}

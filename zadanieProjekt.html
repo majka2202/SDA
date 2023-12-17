@@ -1,0 +1,36 @@
+<!-- HTML
+- Utwórz liste osób (ul) wraz z elementami listy (li) - 3 przykladowe osoby wystarcza <<W HTML>>
+- Utwórz formularz skladający sie z 2x input (imie, nazwisko) oraz przycisk o typie submit
+
+# JS
+
+- Pobierz liste z HTML po ID
+- Pobierz formularz oraz inputy z formularza po ID
+- Utwórz funkcje która pobiera wartosci inputów oraz tworzy nowy element <li> na bazie wartosci imienia i nazwiska
+- do kazdego elementu <li> dodaj przycisk "usun" do którego dodamy event listener który usuwa nam element z listy za pomoca metody remove
+- funkcja dodaje utworzony element <li> do listy osob <ul>
+- dodaj funkcje do eventu submit na formularzu -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./java2.js" defer></script>
+    <link rel="stylesheet" href="css.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="lista">
+        <li>Maja Skrzyszowska</li>
+        <li>Arkadiusz Bezwiński</li>
+        <li>Anna lis</li>
+    </ul>
+    <form id="submit-form">
+        <input id="your-name" type="text" placeholder="imie"/>
+        <input id="your-surname" type="text" placeholder="nazwisko"/>
+        <button type="submit">Prześlij</button>
+        </form>
+    </form>
+ 
+</body>
+</html>

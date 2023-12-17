@@ -1,0 +1,129 @@
+<!-- # Zadanie podsumowujące
+
+Opis zadania:
+Twoim zadaniem jest stworzenie strony internetowej, która będzie stanowić wirtualne portfolio zawierające informacje 
+o Tobie jako specjaliście w danej dziedzinie. Strona powinna zawierać sekcje takie jak: o mnie, umiejętności, projekty, kontakt.
+
+Wymagania projektowe:
+
+1. Struktura strony:
+   Nagłówek z Twoim imieniem lub tytułem zawodowym.
+   Sekcja "O mnie" zawierająca krótki opis Twojego doświadczenia zawodowego, zainteresowań i celów zawodowych.
+   Sekcja "Umiejętności" prezentująca listę Twoich głównych umiejętności lub technologii, którymi się posługujesz.
+   Sekcja "Projekty" z miniaturami lub linkami do projektów, które stworzyłeś lub w których brałeś udział.
+   Stopka zawierająca informacje kontaktowe, takie jak adres e-mail, numer telefonu i linki do profili społecznościowych.
+
+2. Elementy HTML do wykorzystania:
+   Nagłówki (<h1>, <h2>, itd.) do tytułowania sekcji.
+   Znaczniki <p> do opisów w sekcji "O mnie" oraz do prezentacji umiejętności.
+   Znaczniki list (<ul>, <li>) do prezentacji umiejętności w sposób listy.
+   Znaczniki <img> lub <a> do prezentacji projektów.
+   Znacznik <footer> do umieszczenia informacji kontaktowych w stopce.
+
+
+3. Dodatkowe uwagi:
+   Zadbaj o czytelność i estetykę strony.
+   Użyj atrybutów alt w znacznikach <img> dla lepszej dostępności.
+
+Dodatkowe uwagi:
+Strona powinna być przejrzysta, zawierać istotne informacje dotyczące Twojego doświadczenia i umiejętności oraz być przyjazna 
+dla użytkownika. To podstawowe portfolio, które może być później rozwijane i rozbudowywane o bardziej zaawansowane funkcje. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="./index2.js" defer></script>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header><h1 id="title">Mgr inż Maja Skrzyszowska</h1></header>
+    <main>
+      <article>
+        <!-- sekcja pierwsza "o mnie" -->
+        <section class="idSekcja">
+            <h2 class="podrozdzial">O mnie</h2>
+            <br>
+            
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+            fugiat, autem quisquam cupiditate quidem debitis praesentium nisi,
+            ex accusantium dolorum vero non ea animi illo minus veritatis
+            repudiandae nesciunt alias.
+            </p>
+        </section>
+        <!-- sekcja 2 "Umiejętności" -->
+        <section>
+            <br>
+            <h2 class="podrozdzial" >Umiejętności</h2>
+            <br>
+            <ul>
+                <li>Bieganie</li>
+                <li>Gotowanie</li>
+                <li>Matematyka</li>
+                <li>Geografia</li>
+                <li>Nurkowanie</li>
+            </ul>
+        </section >
+        <!-- sekcja 3 "projekty" -->
+        <section class='idSection2'>
+            <h2 class="podrozdzial">Projekty</h2>
+            <ol class="centrowanie">
+                <li>Pomoc Kotom z Hospicjum</li>
+                <img src="https://i.pinimg.com/736x/b0/b6/5a/b0b65ac6262070354722b041448d01a7.jpg"
+                width="200" class="zdj"/>
+                <li>Projekt walki z CHWDP</li>
+                <img src="https://oldschool.pl/wp-content/uploads/2021/03/chwdp-the-analogs.jpg"
+                width="200" class="zdj"/>
+                <li>Jan Paweł II - nasz zbawiciel</li>
+                <img src="https://scroll.morele.net/wp-content/uploads/2021/10/Memy-z-papiezem-obraz-glowny.png"
+                width="200" class="zdj"/>
+                <a href="https://giphy.com/explore/cat" target="_blank" class="link">
+                    klik</a>
+               
+
+            </ol>
+
+        </section>
+       
+          
+        
+        <section>
+          <label >Name
+             <!-- enent submit -->
+        
+          <input id="idInput" type="text" name="name"/>
+          
+          </label>
+          <button type="send" id="button">Klik</button>
+        
+        </section>
+        <br>
+        <br>
+        <section>
+          <form id="submit-form">
+          <input id="first-name" type="text" placeholder="imie" />
+          <button type="submit">Wyslij</button>
+          </form>
+        </section>
+        
+      </article>
+    </main>
+    <footer>
+      <span>Created by Maja Skrzyszowska</span>
+    </footer>
+  </body>
+</html>
+<!-- - Stwórz formularz <form> z polami tekstowymi <input> i przyciskiem <input type="submit"> w sekcji <body>.
+- Użyj tagu <table> do utworzenia tabeli w sekcji <body>.
+- Dodaj komentarz do kodu HTML za pomocą <!- Twój komentarz tutaj.
+- Użyj tagów do wyróżnienia tekstu: <strong>, <em>, <u> itp.
+    - Wstaw nagłówek drugiego poziomu <h2> i dodaj do niego tytuł.
+    - Zmodyfikuj atrybuty elementów HTML, takie jak id, class lub style.
+    - Użyj tagu <div> do utworzenia sekcji na stronie.
+    - Dodaj listę uporządkowaną <ol> z kilkoma elementami <li> w sekcji <body>.
+    - Wstaw link do wideo za pomocą tagu <video> z atrybutem src.
+    - Stwórz hiperłącze, które otworzy się w nowej karcie przeglądarki (target="_blank").
+    - Wykorzystaj tag <footer> do umieszczenia stopki na stronie.
+    - Dodaj atrybut href do każdego linku, wskazując na odpowiednie adresy URL. -->

@@ -1,0 +1,30 @@
+
+h1{
+  color: aqua;
+  font-size: 50px;
+}
+
+p{
+    color: chartreuse;
+    font-size: small;
+}
+.title {
+font-weight: 400;
+}
+#idd{
+    font-weight: 300;
+    color: olive;
+}
+:hover{
+    color: magenta;
+}
+#id{
+    height: 100;
+    width: 200;
+    padding: 20px;
+    background-color: beige;
+
+} 
+#button{
+
+}
